@@ -10,11 +10,11 @@ module.exports = {
       firstColor: "#474747",
       secondColor: "#AD343E",
       cW: "#fff",
+      cB: "#111827",
       buttonClr: "#71717a",
       buttonClrHvr: "#a3a3a3",
-      hoverClr: "#e4e4e7"
+      hoverClr: "#DBDFD0"
     },
-    // You can add other theme configurations here if needed
   },
   plugins: [],
 };
