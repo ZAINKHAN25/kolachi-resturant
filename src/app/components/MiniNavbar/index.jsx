@@ -14,26 +14,44 @@ function MiniNavbar() {
                 <div
                     className='flex justify-center items-center gap-3'
                 >
-                    <div className='flex justify-center items-center gap-1'>
-                        <FaPhoneAlt /> <span>0300-9297318</span>
+                    <div
+                        className='flex justify-center items-center gap-1'
+                    >
+                        <FaPhoneAlt />
+                        <span>
+                            0300-9297318
+                        </span>
                     </div>
-                    <div className='flex justify-center items-center gap-1'>
-                        <MdOutlineEmail /> <span>zainarfeen87@gmail.com</span>
+                    <div
+                        className='flex justify-center items-center gap-1'
+                    >
+                        <MdOutlineEmail />
+                        <span>
+                            zainarfeen87@gmail.com
+                        </span>
                     </div>
                 </div>
                 <div
                     className='flex justify-center items-center gap-3'
                 >
-                    <div className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'>
+                    <div
+                        className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'
+                    >
                         <FaYoutube />
                     </div>
-                    <div className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'>
+                    <div
+                        className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'
+                    >
                         <FaFacebook />
                     </div>
-                    <div className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'>
+                    <div
+                        className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'
+                    >
                         <FaInstagram />
                     </div>
-                    <div className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'>
+                    <div
+                        className='bg-buttonClr cursor-pointer p-2 rounded-full transition-all hover:bg-buttonClrHvr'
+                    >
                         <FaGithub />
                     </div>
                 </div>

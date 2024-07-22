@@ -12,6 +12,7 @@ module.exports = {
       cW: "#fff",
       buttonClr: "#71717a",
       buttonClrHvr: "#a3a3a3",
+      hoverClr: "#e4e4e7"
     },
     // You can add other theme configurations here if needed
   },
