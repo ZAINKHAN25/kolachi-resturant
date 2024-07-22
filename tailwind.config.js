@@ -6,10 +6,14 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    theme: {
-      "firstColor": "#474747",
-      "secondColor": "white"
+    colors: {
+      firstColor: "#474747",
+      secondColor: "#AD343E",
+      cW: "#fff",
+      buttonClr: "#71717a",
+      buttonClrHvr: "#a3a3a3",
     },
-    plugins: [],
-  }
+    // You can add other theme configurations here if needed
+  },
+  plugins: [],
 };
