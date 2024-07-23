@@ -13,7 +13,9 @@ import FooterSection from "./components/FooterSection/index.jsx";
 
 export default function Home() {
   return (
-    <div>
+    <div
+      className="w-full overflow-x-hidden"
+    >
       <MiniNavbar />
       <MainNavbar />
       <LandingSection />

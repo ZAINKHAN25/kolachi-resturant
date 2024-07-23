@@ -6,7 +6,7 @@ import { MdOutlineEmail } from "react-icons/md";
 function MiniNavbar() {
     return (
         <div
-            className='w-screen bg-firstColor text-cW'
+            className='bg-firstColor text-cW'
         >
             <div
                 className='flex justify-between container p-2 items-center gap-3 mx-auto'
