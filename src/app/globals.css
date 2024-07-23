@@ -46,3 +46,26 @@ body::-webkit-scrollbar-thumb:hover {
   align-items: center;
   gap: 30px;
 }
+
+.Sub-Landing-Page-Section {
+  background-image: url('./assets/svg.svg');
+  background-color: #002233;
+  color: white;
+  background-position: right center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.Sub-Landing-Page-Section .menu-items {
+  margin-top: 20px; 
+}
+
+.Sub-Landing-Page-Section .menu-item {
+  margin-bottom: 20px;
+}
