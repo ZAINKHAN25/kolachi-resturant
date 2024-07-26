@@ -16,6 +16,7 @@
   font-family: "Playfair Display", "san-serif";
 }
 
+/* Custom scrollbar styles */
 body::-webkit-scrollbar {
   width: 12px;
 }
@@ -23,9 +24,6 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
-
-
-
 
 body::-webkit-scrollbar-thumb {
   background-color: #AD343E;
@@ -37,6 +35,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
+/* Landing page styles */
 .LandingPageDiv {
   background-image: url("./assets/landingBg.png");
   background-size: cover;
@@ -50,6 +49,7 @@ body::-webkit-scrollbar-thumb:hover {
   gap: 30px;
 }
 
+/* Sub-landing page styles */
 .Sub-Landing-Page-Section {
   background-image: url('./assets/svg.svg');
   background-color: #002233;
@@ -65,6 +65,7 @@ body::-webkit-scrollbar-thumb:hover {
   height: 100vh;
 }
 
+/* Menu item styles */
 .Sub-Landing-Page-Section .menu-items {
   margin-top: 20px; 
 }
