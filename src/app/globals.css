@@ -51,25 +51,28 @@ body::-webkit-scrollbar-thumb:hover {
 
 /* Sub-landing page styles */
 .Sub-Landing-Page-Section {
-  background-image: url('./assets/svg.svg');
-  background-color: #002233;
-  color: white;
-  background-position: right center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 /* Menu item styles */
 .Sub-Landing-Page-Section .menu-items {
-  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 20px auto;;
 }
 
-.Sub-Landing-Page-Section .menu-item {
-  margin-bottom: 20px;
+.menu-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
 }
