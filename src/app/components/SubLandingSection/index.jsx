@@ -43,8 +43,8 @@ function SubLandingSection() {
                     {
                         dummyData.map((item, index) => (
                             <div className='menu-item' key={index}>
-                                <h2>{item.name}</h2>
                                 <span>{item.icon}</span>
+                                <h1>{item.name}</h1>
                                 <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
                             </div>
                         ))
