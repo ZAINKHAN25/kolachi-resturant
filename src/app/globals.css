@@ -65,42 +65,66 @@ body::-webkit-scrollbar-thumb:hover {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  flex-wrap: wrap;
   margin: 20px auto;
 }
 
 .menu-item {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  width: 500px;
-  min-height: 300px;
-  border: 1px solid #DBDFD0;
+  width: 300px;
+  min-height: 350px;
+  border: 1px solid #dbdfd0;
   border-radius: 10px;
   padding: 20px 15px;
 }
 
-.menu-item span{
+.menu-item span {
   font-size: 32px;
   margin-bottom: 5px;
   border-radius: 50%;
-  background-color: #DBDFD0;
+  background-color: #dbdfd0;
   padding: 12px 15px;
-  color: #4D592B;
+  color: #4d592b;
 }
 
-.menu-item h1{
-  color: #2C2F24;
+.menu-item h1 {
+  color: #2c2f24;
   font-weight: 530;
   font-size: 25px;
 }
 
-.menu-item button{
+.menu-item button {
   color: #ad343e;
   font-weight: bold;
   margin-top: 10px;
 }
 
-.menu-item button:hover{
+.menu-item button:hover {
   text-decoration: underline;
+}
+
+.firstLineOfAboutUsSection {
+  width: 500px;
+  height: 400px;
+}
+
+.imgDivOfAbout {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.AboutUsSectionSubCard {
+  width: 300px;
+  position: absolute;
+  right: 40px;
+  bottom: -50px;
+  background-color: #474747;
+  color: white !important;
+  padding: 25px;
+  border-radius: 10px;
 }
