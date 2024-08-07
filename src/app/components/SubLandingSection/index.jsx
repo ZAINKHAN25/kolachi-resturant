@@ -46,6 +46,7 @@ function SubLandingSection() {
                                 <span>{item.icon}</span>
                                 <h1>{item.name}</h1>
                                 <p>In the new era of technology we look in the future with certainty and pride for our life.</p>
+                                <button>Explore Menu</button>
                             </div>
                         ))
                     }

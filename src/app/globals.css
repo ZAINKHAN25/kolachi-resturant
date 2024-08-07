@@ -94,3 +94,13 @@ body::-webkit-scrollbar-thumb:hover {
   font-weight: 530;
   font-size: 25px;
 }
+
+.menu-item button{
+  color: #ad343e;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.menu-item button:hover{
+  text-decoration: underline;
+}
