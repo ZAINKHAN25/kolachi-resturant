@@ -3,7 +3,7 @@ import React from 'react';
 function ServiceSection() {
     return (
         <div>
-            ServiceSection
+            <h1>We also offer unique service for you events</h1>
         </div>
     )
 }
